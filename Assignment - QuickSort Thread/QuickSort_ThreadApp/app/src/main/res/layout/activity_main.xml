@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Roll Number Info -->
+    <TextView
+        android:id="@+id/tvRollInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/roll_info"
+        android:textSize="16sp"
+        android:paddingBottom="16dp"/>
+
+    <!-- Input Label -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/input_label"
+        android:textSize="14sp"
+        android:paddingBottom="4dp"/>
+
+    <!-- User Input Box -->
+    <EditText
+        android:id="@+id/etInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/input_hint"
+        android:inputType="text"
+        android:autofillHints="none"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Buttons side by side -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        style="?android:attr/buttonBarStyle"
+        android:layout_marginBottom="16dp">
+
+        <Button
+            android:id="@+id/btnSort"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_sort"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_marginEnd="8dp"/>
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_clear"
+            style="?android:attr/buttonBarButtonStyle"/>
+
+    </LinearLayout>
+
+    <!-- Status -->
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/status_ready"
+        android:textSize="14sp"
+        android:paddingBottom="12dp"/>
+
+    <!-- Before Sort -->
+    <TextView
+        android:id="@+id/tvBefore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/before_sorting"
+        android:textSize="16sp"
+        android:paddingBottom="12dp"/>
+
+    <!-- After Sort -->
+    <TextView
+        android:id="@+id/tvAfter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/after_sorting"
+        android:textSize="16sp"/>
+
+</LinearLayout>

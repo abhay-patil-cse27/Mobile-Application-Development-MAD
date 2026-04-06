@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">QuickSort ThreadApp</string>
+    <string name="roll_info">Roll No: 46  |  Modulus (46 % 2): 0</string>
+    <string name="input_label">Enter numbers separated by commas:</string>
+    <string name="input_hint">e.g. 15, 21, 0, 6, 8, 4</string>
+    <string name="btn_sort">Sort</string>
+    <string name="btn_clear">Clear</string>
+    <string name="status_ready">Status: Ready</string>
+    <string name="before_sorting">Before Sorting: %1$s</string>
+    <string name="after_sorting">After Sorting: %1$s</string>
+    <string name="status_sorting">Status: Sorting on background thread&#8230;</string>
+    <string name="status_done">Status: Done! (Thread finished)</string>
+    <string name="invalid_input">Invalid input! Use numbers separated by commas.</string>
+    <string name="empty_input">Please enter at least one number.</string>
+    <string name="empty_dash">—</string>
+</resources>
