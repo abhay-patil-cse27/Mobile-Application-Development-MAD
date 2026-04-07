@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Font Controller App</string>
+    <string name="hint_enter_text">Enter text here</string>
+    <string name="preview_text_default">Preview Text</string>
+    <string name="label_select_color">Select Color:</string>
+    <string name="color_red">Red</string>
+    <string name="color_green">Green</string>
+    <string name="color_blue">Blue</string>
+    <string name="label_select_style">Select Style:</string>
+    <string name="style_bold">Bold</string>
+    <string name="style_italic">Italic</string>
+</resources>
