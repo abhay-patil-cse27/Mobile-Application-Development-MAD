@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Duplicate Character Reduction App</string>
+    <string name="title_main">Remove Consecutive Duplicates</string>
+    <string name="subtitle_main">Uses ArrayDeque as Stack — chain reaction removal</string>
+    <string name="input_hint">e.g. aabccbadcd</string>
+    <string name="btn_process">Process</string>
+    <string name="btn_clear">Clear</string>
+    <string name="label_original">Original String: %1$s</string>
+    <string name="label_result">Result: %1$s</string>
+    <string name="label_steps">Steps:</string>
+    <string name="label_steps_with_content">Steps:\n%1$s</string>
+    <string name="placeholder_dash">—</string>
+    <string name="error_empty_input">Please enter a string!</string>
+    <string name="empty_result_message">(empty — all removed)</string>
+</resources>
