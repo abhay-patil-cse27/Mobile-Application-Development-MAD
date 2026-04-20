@@ -2,11 +2,31 @@
     <string name="app_name">Font Controller App</string>
     <string name="hint_enter_text">Enter text here</string>
     <string name="preview_text_default">Preview Text</string>
-    <string name="label_select_color">Select Color:</string>
+
+    <string name="label_colors">Colors:</string>
     <string name="color_red">Red</string>
     <string name="color_green">Green</string>
     <string name="color_blue">Blue</string>
-    <string name="label_select_style">Select Style:</string>
+
+    <string name="label_styles">Styles:</string>
     <string name="style_bold">Bold</string>
     <string name="style_italic">Italic</string>
+
+    <string name="label_options">Options:</string>
+    <string name="option_enable_edit">Enable Editing</string>
+
+    <string-array name="font_sizes">
+        <item>14sp</item>
+        <item>18sp</item>
+        <item>24sp</item>
+        <item>32sp</item>
+        <item>40sp</item>
+    </string-array>
+
+    <string-array name="font_families">
+        <item>Default</item>
+        <item>Monospace</item>
+        <item>Serif</item>
+        <item>Sans Serif</item>
+    </string-array>
 </resources>
